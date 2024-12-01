@@ -1,7 +1,25 @@
-# Simple express demo
+#  Exercise 1: Get All Restaurants
 
-> Express: fast, unopinionated, minimalist web framework for Node.js
+    Objective: Fetch all restaurants from the database.
 
-This project shows a simple express server serving a single HTML page and using `express.static` to serve static files.
+    Query Parameters: None
 
-Check out the [express documentation](https://expressjs.com/) for more information.
+    Tasks: Implement a function to fetch all restaurants.
+
+    Example Call:
+
+        http://localhost:3000/restaurants
+
+#  Exercise 2: Get Restaurant by ID
+
+    Objective: Fetch a specific restaurant by its ID.
+
+    Query Parameters:
+
+    id (integer)
+
+    Tasks: Implement a function to fetch a restaurant by its ID.
+
+    Example Call:
+
+    http://localhost:3000/restaurants/details/1
